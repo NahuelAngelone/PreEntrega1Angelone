@@ -1,0 +1,33 @@
+/* Navbar styles */
+.Navbar {
+    background-color: #343a40;
+    padding: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Navbar-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.Navbar-buttons button {
+    margin-right: 10px;
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.Navbar-buttons button:hover {
+    text-decoration: underline;
+}
